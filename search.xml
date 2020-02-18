@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>path变量配置出现LRE的问题</title>
+    <url>/blog/2020/02/18/path/</url>
+    <content><![CDATA[<h2 id="关于path变量配置出现LRE的问题"><a href="#关于path变量配置出现LRE的问题" class="headerlink" title="关于path变量配置出现LRE的问题"></a>关于path变量配置出现LRE的问题</h2><p>今天尝试写一篇博客<br>讲一讲最近以来配置环境变量的问题</p>
+<p>事情追溯到1个多月以前，配置android以及java的path变量</p>
+<p>但是，无论怎么配置，总会出错</p>
+<p>问题出在我并没有手动输入path中的值，而是右键属性把上面的地址复制下来</p>
+<p><a href="https://img-blog.csdnimg.cn/20200217213306945.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3ODU3MjI0,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="千万不要直接复制！！" class="fancybox"><img alt="千万不要直接复制！！" title="千万不要直接复制！！" data-src="https://img-blog.csdnimg.cn/20200217213306945.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3ODU3MjI0,size_16,color_FFFFFF,t_70" class="lazyload"></a><br>结果就造成，表面上配置好了，结果在cmd中输入path时，前面会出现LRE字样。<br>上网搜了之后也没有相关解答。<br>纠结了一个晚上，终于想到问题出在，直接复<strong>制路径前面会多出一个空格</strong>！。</p>
+<p>总结，path一定要手动输入，不要贪方便复制粘贴，就算要粘贴也要看看前面的空格。最后，记得重启电脑！</p>
+]]></content>
+      <tags>
+        <tag>Path</tag>
+        <tag>环境变量</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello Hexo~</title>
+    <url>/blog/2020/02/18/hello-world/</url>
+    <content><![CDATA[<p>我会继续完善的~<br>做一个有深      度      的博客</p>
+<h2 id="Hello-Hexo"><a href="#Hello-Hexo" class="headerlink" title="Hello Hexo !"></a>Hello Hexo !</h2>]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>开始</tag>
+      </tags>
+  </entry>
+</search>
