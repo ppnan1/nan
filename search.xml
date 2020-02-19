@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>path变量配置出现LRE的问题</title>
-    <url>/2020/02/18/path/</url>
+    <url>/blog/2020/02/18/path/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="关于path变量配置出现LRE的问题"><a href="#关于path变量配置出现LRE的问题" class="headerlink" title="关于path变量配置出现LRE的问题"></a>关于path变量配置出现LRE的问题</h2><p>今天尝试写一篇博客,<br>讲一讲最近以来配置环境变量的问题。</p>
 <p>事情追溯到1个多月以前，配置android以及java的path变量。</p>
 <p>但是，无论怎么配置，总会出错</p>
@@ -17,7 +17,7 @@
   </entry>
   <entry>
     <title>Hello Hexo~</title>
-    <url>/2020/02/18/hello-world/</url>
+    <url>/blog/2020/02/18/hello-world/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\blog\assets\css\APlayer.min.css"><script src="\blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>我会继续完善的~<br>做一个有深      度      的博客</p>
 <h2 id="Hello-Hexo"><a href="#Hello-Hexo" class="headerlink" title="Hello Hexo !"></a>Hello Hexo !</h2>]]></content>
       <categories>
